@@ -1,0 +1,62 @@
+.lahipaketti-wrap-sz-mh {
+	margin-bottom: 20px;
+	display: none;
+}
+
+.noutopiste-result-sz-mh {
+	background: #fff;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	max-width: 100%;
+}
+
+.noutopiste-result-sz-mh:hover { 
+	background: #f3f3f3;
+	cursor: pointer;
+}
+
+.selected-result-sz-mh {
+	background: #f1f1f1;
+}
+
+.current-result-sz-mh, .mh_noutopiste-sz-mh {
+	max-width: 350px;
+	width: 100%;
+	padding: 10px;
+}
+
+.loading-img-mh-sz {
+	width: 16px;
+	height: 16px;
+	display: none;
+	margin-left: 5px;
+	background: url('../img/ajax-loader.gif');
+}
+
+.mh-return-sz-mh {
+	margin: 10px 0;
+}
+
+.required-city-sz-mh {
+	display: block;
+}
+
+.required-pickup-point-sz-mh {
+	display: block;
+	margin: 20px 0 0 0;
+}
+
+input#mh_noutopiste-sz-mh::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ff0000;
+}
+input#mh_noutopiste-sz-mh:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #ff0000;
+	opacity:  1;
+}
+input#mh_noutopiste-sz-mh::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #ff0000;
+	opacity:  1;
+}
+input#mh_noutopiste-sz-mh:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:   #ff0000;
+}

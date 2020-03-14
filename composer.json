@@ -1,0 +1,13 @@
+{
+    "name": "wb-matkahuolto-toimitustavat",
+    "description": "Matkahuolto toimitustavat lisäosa WooCommercelle",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Webbisivut.org",
+            "email": "info@webbisivut.org"
+        }
+    ],
+    "require": {}
+}
